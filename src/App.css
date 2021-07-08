@@ -25,7 +25,7 @@ button {
 
 /* Info.js */
 .form {
-  height: 100vh;
+  height: 130vh;
   padding: 300px;
   display: flex;
   flex-direction: column;
@@ -36,6 +36,21 @@ button {
 .form > h1 {
   margin-bottom: 30px;
 }
+
+#imgfile, #audiofile {
+  padding: 40px;
+  border-radius: 3px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid lightgray;
+  /* border: none; */
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  outline: none;
+}
+
 
 .form > input,
 textarea {
