@@ -15,6 +15,12 @@ const Info = () => {
             <label>French</label>
             <input placeholder="French word"/>
 
+            <label>Image</label>
+            <input type="file" accept="image/png, image/gif, image/jpeg" id="imgfile"></input>
+
+            <label>Audio</label>
+            <input type="file" accept=".mp3" id="audiofile"></input>
+
             <button type="submit">Submit</button>
             
         </form>
