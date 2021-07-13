@@ -25,7 +25,7 @@ button {
 
 /* Info.js */
 .form {
-  height: 130vh;
+  height: 180vh;
   padding: 300px;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,8 @@ button {
   margin-bottom: 30px;
 }
 
-#imgfile, #audiofile {
+
+#files {
   padding: 40px;
   border-radius: 3px;
   /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
