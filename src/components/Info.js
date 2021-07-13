@@ -16,10 +16,16 @@ const Info = () => {
             <input placeholder="French word"/>
 
             <label>Image</label>
-            <input type="file" accept="image/png, image/gif, image/jpeg" id="imgfile"></input>
+            <input type="file" accept="image/png, image/gif, image/jpeg" id="files"></input>
 
-            <label>Audio</label>
-            <input type="file" accept=".mp3" id="audiofile"></input>
+            <label>Wolof Audio</label>
+            <input type="file" accept=".mp3" id="files"></input>
+
+            <label>English Audio</label>
+            <input type="file" accept=".mp3" id="files"></input>
+
+            <label>French Audio</label>
+            <input type="file" accept=".mp3" id="files"></input>
 
             <button type="submit">Submit</button>
             
